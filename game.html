@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE NIGHT WOLF</title>
+</head>
+<style>
+    label{
+        margin: auto;
+        height: 100px;
+        width: 200px;
+    }
+    .father{
+        margin: auto;height: 40px;
+        width: 300px;
+    }
+    .right{
+        width: 40px;
+        height: 40px;
+        float: right;
+        background-color: red;
+    }
+    .left{
+
+        width: 40px;
+        height: 40px;
+        float: left;
+        background-color: red;
+    }
+    #father_1{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        background-color: rgb(220, 116, 116);
+    }
+    #father_2{
+        margin: auto;height: 40px;
+        width: 150px;
+    }
+    .right_2{
+        width: 40px;
+        height: 40px;
+        float: right;
+        background-color: rgb(220, 116, 116);
+    }
+    .left_2{
+        width: 40px;
+        height: 40px;
+        float: left;
+        background-color:rgb(220, 116, 116);
+    }
+    .right_3{
+        width: 80px;
+        height: 40px;
+        float: right;
+        
+    }
+    .left_3{
+        width: 80px;
+        height: 40px;
+        float: left;
+        
+    }
+    .father::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+<body style="background-image: url(./img/game_bg.jpeg);background-repeat: no-repeat;background-size: cover;">
+    <div style="background-color:white;opacity: 0.7;
+    margin: auto;height: 600px;
+    width: 450px;">
+    <form action=""><br><br>
+        <div class="father">
+            <div class="left"><label for="">1</label></div>
+            <div class="right">4</div>
+        </div>
+        <div id="father_1">7</div>
+        <div class="father">
+            <div class="left">2</div>
+            <div class="right">5</div>
+        </div>
+        <div id="father_2">
+            <div class="left_2">8</div>
+            <div class="right_2">9</div>
+        </div>
+        <div class="father">
+            <div class="left">3</div>
+            <div class="right">6</div>
+        </div><br><br>
+        <div class="father">
+            <div class="left_3"><button onclick="login()" style="text-align: center;">准备</button></div>
+            <div class="right_3"><button onclick="login()" style="text-align: center;">查看身份</button></div>
+        </div>
+        <button onclick="worker1()" style="text-align: center;">狼人</button>
+        <button onclick="worker2()" style="text-align: center;">爪牙</button>
+        <button onclick="worker3()" style="text-align: center;">预言家</button>
+        <button onclick="worker4()" style="text-align: center;">强盗</button>
+        <button onclick="worker5()" style="text-align: center;">捣蛋鬼</button>
+        <button onclick="worker6()" style="text-align: center;">酒鬼</button>
+        <button onclick="worker7()" style="text-align: center;">失眠者</button>
+        <button onclick="worker8()" style="text-align: center;">皮匠</button>
+        <script>
+            function worker1(){
+                //补充：是狼 if (condition) {}
+                
+                //补充：不是狼 else{}
+
+                
+            }
+        </script>
+        
+    </form>
+    </div>
+</body>
+</html>

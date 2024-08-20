@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE NIGHT WOLF</title>
+</head>
+<style>
+    button{
+        width: 160px;
+        height: 40px;
+        background-color: brown;
+        font:30px 'KaiTi' ;
+    }
+    button:hover{
+        background-color: rgb(117, 6, 6);
+        cursor: pointer;
+    }
+</style>
+<body style="background-image: url(./img/start_bg.jpg);background-repeat: no-repeat;background-size: cover;">
+    <div style="width: 100px;
+    height: 50px;margin: auto;margin-top: 500px;"><form action="">
+        <button onclick="jinru()">进入游戏</button>
+        </form>
+    </div>
+    <script>
+        function jinru() {
+            window.location.href='login_1.html';
+            window.event.returnValue=false;
+        }
+    </script>
+</body>
+</html>
